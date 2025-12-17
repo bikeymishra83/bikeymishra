@@ -7,8 +7,8 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from github import Github, GithubException
 
 
-BOT_TOKEN = ""
-OWNER_USER_ID = 1817861
+BOT_TOKEN = "7454286301:AAEaKZ63hpCB4J686hHgyIeQR96LDlpL79w"
+OWNER_USER_ID = 1263413072
 
 
 TOKENS_FILE = "tokens.json"
