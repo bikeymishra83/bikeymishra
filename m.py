@@ -11,7 +11,7 @@ import os
 bot = telebot.TeleBot('7304547797:AAElBhTHt1tlV3aqOzGGgNuOFtF51VtHE8s')
 
 # Admin user IDs
-admin_id = ['6755603559']
+admin_id = ['1263413072']
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -378,4 +378,5 @@ while True:
         bot.polling(none_stop=True)
     except Exception as e:
         print(e)
+
 
